@@ -11,7 +11,7 @@ namespace XamarinProj
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new TabbedPageView();
         }
 
         protected override void OnStart()

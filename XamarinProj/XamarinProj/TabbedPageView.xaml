@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:helpers="clr-namespace:XamarinProj.Helpers"
+             x:Class="XamarinProj.TabbedPageView">
+    <TabbedPage.Children>
+        <helpers:HomePageView></helpers:HomePageView>
+        <helpers:BasketView></helpers:BasketView>
+        <helpers:ContactView></helpers:ContactView>
+        <helpers:ItemOverview></helpers:ItemOverview>
+    </TabbedPage.Children>
+</TabbedPage>
