@@ -10,17 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace XamarinProj
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginView : ContentPage
+	public partial class SettingsTableView : ContentPage
 	{
-		public LoginView ()
+		public SettingsTableView ()
 		{
 			InitializeComponent ();
 		}
-
-        private async void LoginButton_OnClicked()
-        {
-            Navigation.InsertPageBefore(new MainView(), this);
-            await Navigation.PopAsync();
-        }
-    }
+	}
 }

@@ -11,6 +11,11 @@ namespace XamarinProj
         {
             InitializeComponent();
 
+            bool alreadyRegistered = false;
+
+            if (alreadyRegistered)
+                MainPage = new LoginView();
+
             MainPage = new RegisterView();
         }
 
