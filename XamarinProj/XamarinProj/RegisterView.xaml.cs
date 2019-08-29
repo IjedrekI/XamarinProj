@@ -24,7 +24,6 @@ namespace XamarinProj
         {
             if (e.NewDate == DateTime.Today)
             {
-                //show warning that this is impossible
                 DisplayAlert("Alert", "You weren't born today I guess", "OK, true!");
             }
         }

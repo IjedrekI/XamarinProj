@@ -9,9 +9,9 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinProj
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SettingsView : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class SettingsView : ContentPage
+    {
         public SettingsView()
         {
             InitializeComponent();
@@ -56,3 +56,4 @@ namespace XamarinProj
             await DisplayAlert("Success", "Your settings have been saved!", "Done");
         }
     }
+}

@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinProj.ContactView"
@@ -19,7 +18,7 @@
                 TextColor="Black" 
                 FontSize="Small" 
                 IsSpellCheckEnabled="True" 
-                MaxLength="500" >
+                MaxLength="300" >
             <Editor.Keyboard>
                 <Keyboard x:FactoryMethod="Create">
                     <x:Arguments>

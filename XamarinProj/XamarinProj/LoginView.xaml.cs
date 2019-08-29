@@ -14,7 +14,7 @@ namespace XamarinProj
 	{
 		public LoginView ()
 		{
-			InitializeComponent ();
+			//InitializeComponent ();
 		}
 	}
 }
